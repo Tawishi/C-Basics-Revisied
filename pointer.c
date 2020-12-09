@@ -11,7 +11,7 @@ void main() {
     char * pGrade = &grade;
 
     printf("age at %p\n", pAge);
-    printf("age is %d\n", *pAge);
+    printf("age is %d\n", *pAge); //dereferancing pointers
     printf("gpa at %p\n", pGpa);
     printf("gpa is %lf\n", *pGpa);
     printf("grade at %p\n", pGrade);
